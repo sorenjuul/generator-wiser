@@ -1,6 +1,6 @@
 # Backbone.js generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-backbone.png?branch=master)](http://travis-ci.org/yeoman/generator-backbone) [![Coverage Status](https://coveralls.io/repos/yeoman/generator-backbone/badge.png?branch=master)](https://coveralls.io/r/yeoman/generator-backbone?branch=master)
 
-Maintainer: [Revath S Kumar](https://github.com/revathskumar)
+Maintainer: [Søren Juul](https://github.com/sorenjuul)
 
 A Backbone generator for Yeoman that provides a functional boilerplate Backbone app out of the box. You also get access to a number of sub-generators which can be used to easily create individual models, views, collections and so on.
 
@@ -9,36 +9,36 @@ Optional RequireJS (AMD) support has recently been added as a prompt when using 
 
 ## Usage
 
-Install: `npm install -g generator-backbone`
+Install: `npm install -g sorenjuul/generator-wiser`
 
 Make a new directory and `cd` into it:
 ```
 mkdir my-new-project && cd $_
 ```
 
-Run `yo backbone`, optionally passing an app name:
+Run `yo wiser`, optionally passing an app name:
 ```
-yo backbone [app-name]
+yo wiser [app-name]
 ```
 
 ## Generators
 
 Available generators:
 
-- backbone:model
-- backbone:view
-- backbone:collection
-- backbone:router
-- backbone:all
+- wiser:model
+- wiser:view
+- wiser:collection
+- wiser:router
+- wiser:all
 
 ## Typical workflow
 
 ```
-yo backbone # generates your application base and build workflow
-yo backbone:model blog
-yo backbone:collection blog
-yo backbone:router blog
-yo backbone:view blog
+yo wiser # generates your application base and build workflow
+yo wiser:model blog
+yo wiser:collection blog
+yo wiser:router blog
+yo wiser:view blog
 grunt serve
 ```
 
