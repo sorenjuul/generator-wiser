@@ -30,19 +30,19 @@ function Generator(args, options, config) {
   this.testFramework = this.options['test-framework'] || 'mocha';
 
   // the api to hookFor and pass arguments may vary a bit.
-  this.hookFor('backbone:app', {
+  this.hookFor('wiser:app', {
     args: args
   });
-  this.hookFor('backbone:router', {
+  this.hookFor('wiser:router', {
     args: args
   });
-  this.hookFor('backbone:view', {
+  this.hookFor('wiser:view', {
     args: args
   });
-  this.hookFor('backbone:model', {
+  this.hookFor('wiser:model', {
     args: args
   });
-  this.hookFor('backbone:collection', {
+  this.hookFor('wiser:collection', {
     args: args
   });
 
