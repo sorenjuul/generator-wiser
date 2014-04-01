@@ -11,20 +11,26 @@ define([
     var <%= _.classify(name) %>View = Backbone.View.extend({
         template: JST['<%= jst_path %>'],
 
-        tagName: 'div',
-
-        id: '',
-
-        className: '',
-
-        events: {},
+        events: {
+            'showpage':'showpage',
+            'hidepage':'hidepage'
+        },
 
         initialize: function () {
-            this.listenTo(this.model, 'change', this.render);
+            
         },
 
         render: function () {
-            this.$el.html(this.template(this.model.toJSON()));
+            this.$el.html(this.template());
+        },
+        
+        showpage: function() {
+            
+        },
+        
+        hidepage: function() {
+            this.remove();
+            this.unbind();
         }
     });
 
