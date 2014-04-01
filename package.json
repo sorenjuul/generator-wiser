@@ -1,5 +1,5 @@
 {
-  "name": "generator-backbone-jquery-mobile",
+  "name": "generator-wiser",
   "version": "0.2.5",
   "description": "Yeoman generator for Backbone.js",
   "keywords": [
@@ -15,7 +15,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yeoman/generator-backbone-jquery-mobile.git"
+    "url": "git://github.com/yeoman/generator-wiser.git"
   },
   "scripts": {
     "test": "mocha --reporter spec"
