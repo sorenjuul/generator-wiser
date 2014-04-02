@@ -1,4 +1,4 @@
-# Backbone.js generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-backbone.png?branch=master)](http://travis-ci.org/yeoman/generator-backbone) [![Coverage Status](https://coveralls.io/repos/yeoman/generator-backbone/badge.png?branch=master)](https://coveralls.io/r/yeoman/generator-backbone?branch=master)
+# Backbone.js and jquery mobile generator 
 
 Maintainer: [Søren Juul](https://github.com/sorenjuul)
 
