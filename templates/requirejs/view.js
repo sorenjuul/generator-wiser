@@ -9,7 +9,7 @@ define([
     'use strict';
 
     var <%= _.classify(name) %>View = Backbone.View.extend({
-        template: JST['<%= jst_path %>'],
+        template: Wiser.Templates['<%= jst_path %>'],
 
         events: {
             'showpage':'showpage',
