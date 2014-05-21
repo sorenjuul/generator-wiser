@@ -34,9 +34,9 @@ Generator.prototype.createViewFiles = function createViewFiles() {
   if (templateFramework === 'mustache') {
     templateExt = '-template.mustache';
   } else if (templateFramework === 'handlebars') {
-    templateExt = '.hbs';
+    templateExt = '.tpl';
   }
-  this.jst_path = this.env.options.appPath + '/scripts/templates/' + this.name + templateExt;
+  this.jst_path = this.env.options.appPath + '/js/views/' + this.name + templateExt;
 
   this.template('view.ejs', this.jst_path);
   if (templateFramework === 'mustache') {
