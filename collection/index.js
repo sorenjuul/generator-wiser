@@ -29,7 +29,7 @@ function Generator() {
 util.inherits(Generator, scriptBase);
 
 Generator.prototype.createControllerFiles = function createControllerFiles() {
-  this.writeTemplate('collection', path.join(this.env.options.appPath + '/js/collections', this.name));
+  this.writeTemplate('collection', path.join(this.env.options.appPath + '/js/collection', this.name));
 
   if (!this.options.requirejs) {
     this.addScriptToIndex('collections/' + this.name);
