@@ -11,8 +11,8 @@ define([
         template: Wiser.Templates['<%= jst_path %>'],
 
         events: {
-            'showpage':'showpage',
-            'hidepage':'hidepage'
+            'pageshow':'pageshow',
+            'pagehide':'pagehide'
         },
 
         initialize: function () {
@@ -23,11 +23,11 @@ define([
             this.$el.html(this.template());
         },
         
-        showpage: function() {
+        pageshow: function() {
             
         },
         
-        hidepage: function() {
+        pagehide: function() {
             this.remove();
             this.unbind();
         }
