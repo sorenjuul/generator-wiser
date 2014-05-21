@@ -43,7 +43,7 @@ Generator.prototype.createViewFiles = function createViewFiles() {
     this.jst_path = this.name + '-template';
   }
 
-  this.writeTemplate('view', path.join(this.env.options.appPath + '/scripts/views', this.name));
+  this.writeTemplate('view', path.join(this.env.options.appPath + '/js/views', this.name));
 
   if (!this.options.requirejs) {
     this.addScriptToIndex('views/' + this.name);
