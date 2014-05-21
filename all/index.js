@@ -68,7 +68,7 @@ util.inherits(Generator, yeoman.generators.Base);
 
 Generator.prototype.createDirLayout = function createDirLayout() {
   this.dirs.forEach(function (dir) {
-    this.log.create('app/scripts/' + dir);
-    this.mkdir(path.join('app/scripts', dir));
+    this.log.create('app/js/' + dir);
+    this.mkdir(path.join('app/js', dir));
   }.bind(this));
 };
